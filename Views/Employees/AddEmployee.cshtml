@@ -1,0 +1,13 @@
+﻿@model todo_api.Models.AddEmployeeViewModel
+@{ 
+}
+
+<h1>Add Employee</h1>
+<form method="post" action="Add" class="mt-1">
+    <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary mt-1">Submit</button>
+</form>
